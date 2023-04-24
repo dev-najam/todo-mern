@@ -31,7 +31,7 @@ app.get("/", (req, res) => {
   res.send(`hello world`);
 });
 
-app.get("/about", middleware, (req, res) => {
+app.get("/najam", middleware, (req, res) => {
   res.send(`About`);
 });
 
